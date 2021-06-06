@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks: 
+    - name: Execute command
+      command: mvn clean install
+...
